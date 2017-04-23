@@ -1,0 +1,105 @@
+body{
+	margin:0;
+	padding: 0;
+	background-color: #eff0f4;
+}
+
+.heard{
+	width: 100%;
+	margin:0 0 3% 0;
+	padding:4% 0;
+	display: flex;  
+	align-items: flex-end;
+	color: #ffffff;
+	background-color: #5fc0cd;
+}
+
+h4{
+	margin:0 4%;
+}
+
+h3{
+	margin:0 auto;
+}
+
+.main {
+	width:100%;
+	margin:3% 0;
+	padding: 2% 0;
+	background-color:white;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.tu {
+	width:5%;
+	margin:0 0 0 3%;
+	position:absolute left center;
+}
+
+.content{
+	width: 80%;
+	margin: 0 0 0 3%;
+	padding:0 0 0 3%;
+	font-size: 1.0rem;
+	border:none;
+	border-left:2px solid #EFF0F4;
+}
+
+button{
+	width:100%;
+	margin:5% 0 0 0;
+	padding:3% 0;
+	color: white;
+	background-color:#5FC0CD;
+	border:none;
+	font-size:1.3rem;
+}
+
+p{
+	color:#5FC0CD;
+	margin:2% 4% 0 0;
+	float: right;
+}
+
+
+@media only screen and (min-width: 400px) {
+
+.tu{
+	width:29px;
+	height:43px;
+}
+
+.heard{
+	padding:2% 0;
+}
+
+button{
+	padding:2%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
